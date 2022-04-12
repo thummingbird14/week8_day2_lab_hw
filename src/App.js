@@ -4,15 +4,6 @@ import { useDarkLight } from './hooks/useDarkLight';
 
 function App() {
 
-  // const [isDarkMode, setIsDarkMode] = useState(false);
-
-  // const toggleDarkMode = () => {
-  //   setIsDarkMode(!isDarkMode);
-  // }
-
-  // const isDarkMode = useDarkLight();
-  // console.log(isDarkMode)
-
   const {isDarkMode, toggleDarkMode} = useDarkLight(); 
 
   return (
